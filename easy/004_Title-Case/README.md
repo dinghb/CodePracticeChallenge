@@ -1,23 +1,4 @@
-# content
-
-## 普通
-### 001_Count-Integual-num
-描述: 统计字符串中整数的个数，如abc123egf，其中整数为1个
-
-### 002_LetterChanges
-描述:
-Replace every letter in the string with the letter following it in the 
-alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in 
-this new string (a, e, i, o, u) and finally return this modified string.
-
-### 003_Sum-of-Numbers
-描述：
-Given two integers, which can be positive and negative, find the sum of 
-all the numbers between including them too and return it. 
-If both numbers are equal return a or b.
-
-### 004_Title-Case
-描述：
+# 描述
 A string is considered to be in title case if each word in the string 
 is either (a) capitalised (that is, only the first letter of the word 
 is in upper case) or (b) considered to be an exception and put entirely 
@@ -30,14 +11,19 @@ Your function should ignore the case of the minor words string -- it
 should behave in the same way even if the case of the minor word string 
 is changed.
 
-参数：
+# 参数
 First argument (required): the original string to be converted.
 Second argument (optional): space-delimited list of minor words that 
            must always be lowercase except for the first word in the 
            string. The JavaScript/CoffeeScript tests will pass undefined 
            when this argument is unused.
-           
-示例：
+
+
+# 格式
+示例输入输出：
+title_case('') # ''
 title_case('a clash of KINGS', 'a an the of') # should return: 'A Clash of Kings'
 title_case('THE WIND IN THE WILLOWS', 'The In') # should return: 'The Wind in the Willows'
 title_case('the quick brown fox') # should return: 'The Quick Brown Fox'
+
+
