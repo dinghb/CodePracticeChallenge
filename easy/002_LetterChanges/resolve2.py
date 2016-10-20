@@ -26,5 +26,7 @@ def LetterChanges(str):
     newString = newString + char
 
   return newString
-       
-print LetterChanges("fun times!")  
+
+
+print(LetterChanges("fun times!"))
+# print LetterChanges("fun times!")
